@@ -1,0 +1,3 @@
+Q.What is window object?
+=>window object is a global object.it provide some set of methods and property.
+=>methods are open method,close,minimise,resize etc which helps to controls browser window.

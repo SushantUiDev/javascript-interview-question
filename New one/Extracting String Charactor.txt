@@ -1,0 +1,3 @@
+Extracting String  charactor :
+1)charAt(o) : it will return charactor which is at position 0.
+2)charCodeAt(0):it will return unicode of charactor which is at position 0.

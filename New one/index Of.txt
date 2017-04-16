@@ -1,0 +1,8 @@
+Q.how to find index Occurance ?
+=>
+var str="this is my is world"
+str.indexOf("is")  ;    //  it return  6 because (it will return first occurance.) 
+str.lastIndexOf("is")  // it will return last occurance of element. 
+
+=>basically indexOf method is used for single alphabet.
+=>zero is a first position in string.

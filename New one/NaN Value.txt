@@ -1,0 +1,5 @@
+NaN :
+=>it is a special value in javascript .
+=>it's type is a number.
+=>it perform operation while assuming a input is Number.
+=>if it is not a number then it we get NaN.

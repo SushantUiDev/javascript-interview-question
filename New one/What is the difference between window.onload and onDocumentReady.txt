@@ -1,0 +1,9 @@
+What is the difference between window.onload and onDocumentReady ?
+=>
+**window.onload :
+=>window.onload is a standerd function in DOM.
+=>It  will occure after all the content (images/css files/js files) have been loaded.
+
+=>document.ready :
+=>it is specific to jquery event.
+=>it will accure as soon as Dom is loaded. 

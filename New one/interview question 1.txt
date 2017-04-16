@@ -1,0 +1,108 @@
+HTML/HTML5
+  => CANVAS 
+  => SVG
+  =>LOCALSTORAGE
+  =>SESSION STORAGE 
+  =>INDEXED  DB
+  =>Web Sql
+  =>Cache Storage.
+  =>What are new features added to the HTML
+
+5/CSS3.
+  =>article,aside,nav
+  =>CSS3:
+  =>Box Model
+  =>Padding the margin
+  =>Radius
+  =>Webkit
+  =>Gradients
+  =>Animations
+
+Javascript:
+ => What are arguments in javascript
+ =>What is DOM
+ =>Closures
+ =>Callbacks http://latentflip.com/loupe
+ =>Inheritance.
+ =>Public private, static
+ =>Scope  global and lexical scope
+ =>Ways to create the objects and compare.
+ =>Ways to create the functions.
+ =>Working with arrays
+ =>Splice and slice.
+ =>Substring
+ =>arguments.
+ =>Jquery
+ =>Selectors
+ =>Dom traversing
+ =>Document ready function
+ =>Next,sibling,parent,children
+ =>Attrs(), addClass(), removeClass(),append(),appendChild(),html()
+ =>toggle(),hide(),show(),val(),
+ =>Chanining
+ =>How to reach the nth element of a tag using jquery.
+ =>ajax
+ =>Angular
+
+Module based programming
+ =>DI
+ =>MV*
+ =>Controllers and the contorller as VM syntax
+ =>Services/factories
+ =>Promises
+ =>$http
+ =>Directives
+ =>Components
+ =>Isolated scope
+ =>UI-routing
+ =>$apply and $digest
+ =>$broadcast and $emit and $on
+ =>Controller inheritance
+ =>$watch, $watchGroup, $watchCollection.
+ =>Transclude.
+ =>$compile
+ =>Oneway databinding.
+ =>Ng-cloak
+ =>Difference between ng-show and ng-if
+ =>Difference between ng-options and ng-repeat
+ =>How to avoid duplicates on ng-repeat 
+ Ans : track by 
+
+ =>$templateCache
+ =>Localization and internationalization i8N
+ =>Angular-translate
+ =>ngResource
+ =>RestAngular
+ =>$localStorage
+ =>$sessionStorage
+ =>Promise tracker
+ =>requirejs
+
+
+
+Gulp
+ => Minification
+ =>Bundling
+ =>Live reload
+ =>Watch
+ =>Preprocess LESS and SAAS
+ =>http://yeoman.io/generators/
+ =>RESTAngular
+ =>$resource
+
+
+
+
+
+
+
+
+
+
+
+:
+
+
+
+
+

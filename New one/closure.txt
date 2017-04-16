@@ -1,0 +1,30 @@
+**********Closoure**************
+
+==> Closoure are the inner function that is function returning another function.
+
+i.e => outerfunction
+           innerfunction
+
+=> dummy code;
+     
+   function greeting()//outer function
+  {
+       var wish=happy year;  //outer function variable/ property is accessible by inner function(benifit of closure)
+       return function happyNewYear()  //inner function execute in the context/environment of outer function
+       {
+           console.log("hi");    //working
+           console.log(wish);   //working
+       };
+  }
+greeting();
+==>Inner function will have the access of outer function data,
+
+==>inner function will remember its outer function environment and that is why inner function will remember 
+       outer function variable;
+
+==>flow of execution envirnment 
+     1)browser - window -greeting -happyNewYear......
+
+
+
+**error in javascript **

@@ -1,0 +1,6 @@
+Q.how to replace String ?
+=>.replace("Sushant","Vicky");
+=>this will replace only  first occurance of String value.
+Q.how to replace all perticular sring in all content
+=>.replace("/sushant/g","vicky");
+=>it will replace all sushant by vicky in whole content.

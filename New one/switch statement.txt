@@ -1,0 +1,20 @@
+Switch Statement:
+===============
+=>Switch statement is used to   perform diffrent operation on diffrent condition.
+
+syntax:
+
+switch(expression) {
+    case n:
+        code block
+        break;
+    case n:
+        code block
+        break;
+    default:
+        code block
+}
+
+=>the switch expression is evaluate once.
+=>the value of that expression is compair with value of each case statement.
+=>if there is a match then that block is executed.

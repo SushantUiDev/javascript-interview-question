@@ -1,0 +1,3 @@
+What's the difference between .call and .apply ?
+=>call receive argument as an infinite length.
+=>apply receive an argument as an array.

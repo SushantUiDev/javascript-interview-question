@@ -1,0 +1,10 @@
+Q.host object and native object?
+=>host object :host object is supplied by certain environment.
+=>host object is not same all the time,
+it differ as environment cheange.just like browser object supplied window object
+
+Q.what is native object ?
+=>native object are a build-in object they are provided by javascript.like boolean(),date(),number() etc. 
+
+
+

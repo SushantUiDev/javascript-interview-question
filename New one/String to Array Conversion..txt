@@ -1,0 +1,2 @@
+String to Array Conversion:
+=>split(" | ") ;it is used to convert string into array.

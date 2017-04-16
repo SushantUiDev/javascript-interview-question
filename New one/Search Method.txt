@@ -1,0 +1,5 @@
+Serch() :
+=>it will serches a match string and return match index.
+str.search("locate").
+
+=>search and indexof are similar.

@@ -1,0 +1,3 @@
+note:Accessing String as an array is an unsafe.
+var str="hello world"
+srt[0]     // it will return h (it is not giving any error)

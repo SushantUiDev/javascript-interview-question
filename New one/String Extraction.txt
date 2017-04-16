@@ -1,0 +1,19 @@
+1)slice()
+=>slice(start,end)
+=>it will return extracted part in new string.
+ex:var str="'orange', 'pink' ,'red'";
+             str.slice(2,3)       // it will return n 
+              str.slice(9,12)       // it will return n
+
+=>if parameter is negative then string is counted from last.
+=>if we omit the 2nd parameter then it will return rest of string from that point.
+
+
+2)substring():
+=>this is similar to slice bt it can not accept negative value.
+
+3)substr():
+=>it is simillar to slice the diffrence is that the second parameter represent length.
+var str=" ' apple ' , ' banana ' , ' pink' " ;
+
+str.substr("1,2")    //return app 
