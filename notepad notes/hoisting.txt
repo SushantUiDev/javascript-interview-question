@@ -1,0 +1,10 @@
+Q.hoisting in js
+=>moving all declarations to the top of the current scope 
+(to the top of the current script or the current function).
+
+=>initilization is hoisted.
+
+
+
+note:JavaScript in strict mode does not allow variables to be used if they are not declared.
+Study "use strict" in the next chapter.

@@ -1,0 +1,11 @@
+ var arr=["ram" , "shyam" , "ravi"]; ==> Simple array 
+or
+var arr=new Array("ram" , "shyam" , "ravi");
+
+
+var arr=["Ram" , "Shyam" ,49];==>Array Object
+or
+
+var arr={"Ram" , "Shyam" ,49};==>object
+
+typeOf(Array) = Object

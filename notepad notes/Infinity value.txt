@@ -1,0 +1,3 @@
+Infinity :
+=>to handle big number in javascript special value is infinity.
+=>typeof infinity is number.

@@ -1,0 +1,3 @@
+Q.What is the difference between good and bad software?
+=>In my opinion, error handling defines the quality of a piece of software. Badly written software will corrupt and delete data, leak memory and grind to a halt, crash the operation system, display incomprehensible error messages, and find many ways to infuriate the user.
+

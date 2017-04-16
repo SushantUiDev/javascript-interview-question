@@ -1,0 +1,13 @@
+Q.Function Carrying in javascript ?
+Q.what is Closure in javascript ?
+=> Closures are an abstraction mechanism that allow you to separate concerns very cleanly. 
+=>closure is a inner function  that has access to outer function variable.
+=>closure has three scope chain.
+=>it has access to
+        => its own scope.
+        =>its outer function,
+       =>global scope.
+=>
+
+Q.what is IIFE ?
+=>Immediately-invoked function expression (IIFE). 

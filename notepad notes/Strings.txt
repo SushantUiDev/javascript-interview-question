@@ -1,0 +1,93 @@
+String:
+======
+=>javascript string simply stores a series of character.
+=>it can be any text inside ' ' or  " ".
+
+Extracting String Parts:
+======================
+1)slice:
+----------
+=>slice() extracts a part of a string and returns the extracted part in a new string.
+=>The method takes 2 parameters: the starting index (position), and the ending index (position).
+=>it will extract parts of string and return extracted part in another string.
+
+2)subString:
+-----------------
+=>substring() is similar to slice().
+=>can not accept negative indexe.
+
+3)subStr():
+=>substr() is similar to slice().
+=>The difference is that the second parameter specifies the length of the extracted part.
+=>The second parameter can not be negative, because it defines the length.
+
+4)replace():
+=>replacing specified string value to another string value.
+
+5)concat():
+
+6) charAt():
+=> method returns the character at a specified index (position) in a string.
+
+7)charCodeAt() :
+=>The charCodeAt() method returns the unicode of the character at a specified index in a string.
+
+8)match():
+=>The match() method searches a string for a match against a regular expression, and returns the matches, as an Array object.
+============Accessing a String as an Array is Unsafe===================================
+
+
+
+
+
+String Conversions
+
+When you use a number-like string as an operand in an arithmetic operation, the string is converted to a number behind the scenes. (This works for all operations except addition, because of addition's ambiguity)
+
+>>> var s = '1'; s = 3 * s; typeof s;
+"number"
+>>> s
+3
+>>> var s = '1'; s++; typeof s;
+"number"
+>>> s
+2
+A lazy way to convert any number-like string to a number is to multiply it by 1 (a better way is to use a function called parseInt()):
+
+>>> var s = "100"; typeof s;
+"string"
+>>> s = s * 1;
+100
+>>> typeof s;
+"number"
+If the conversion fails, you'll get NaN:
+
+>>> var d = '101 dalmatians';
+>>> d * 1
+NaN
+A lazy way to convert anything to a string is to concatenate it with an empty string.
+
+>>> var n = 1;
+>>> typeof n;
+"number"
+>>> n = "" + n;
+"1"
+>>> typeof n;
+"string"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
