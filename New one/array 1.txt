@@ -1,0 +1,2 @@
+Q.What is Array ?
+=>Array is a special variable.which can hold more than one value at a time.

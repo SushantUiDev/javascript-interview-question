@@ -1,0 +1,61 @@
+Q.Methods in array ?
+
+var cities=["hyd","del"]
+
+1)toString():
+=>it will convert array into string.by saperated with comma.
+console.log(cities.toString())   //    hyd , del
+
+2)join():
+=>it is same as tostring()  but it will allow us our own delimeter.
+
+console.log(cities.join("|"))  //   hyd|del
+
+Q.what is diffrence between join and concat ?
+=>join allows to saperate string by some explicite symbol and .concat() dont allows us.
+
+sort() and reverse() is used to arrenge array in asscending and descending order.;
+
+
+
+3)array.push();
+=>it will add item at last. 
+=>it return length of an array.
+ex.var fruits=["banana","mango","cake"]
+fruits.push("sush")   //it will add sush at last and return total length of array.
+or
+fruits[fruits.length]="mango" ;  // itwill add at last
+
+
+3)pop :
+=>it will remove last item from an array .
+=>and it will return remove element.
+
+4)shift():
+=>it method remove first element from an array and shift second element to first.
+=>it will return deleted element.
+
+5)unShift():
+=>it will add new element at the first and shift first one to next.
+=>and return total count.
+
+
+6)delet().
+=>it will delet item based on index,but it will leave the memory as undefined.
+
+
+7)splice();
+=>it is used to add and remove element from an array.
+
+arr.splice("no.item to add","no of item to remove","elements");
+
+8)slice():
+=>it is used for extracting string from specified index.
+=>it will not remove the string.
+  var  cities=["del","mum","che","hyd"]
+  document.write(cities.join("|"));
+  var south=cities.slice(2)                        // it will extract string from specified index.
+  document.write(south.join("|")); che,hyd
+  document.write(cities.join(","));
+
+
