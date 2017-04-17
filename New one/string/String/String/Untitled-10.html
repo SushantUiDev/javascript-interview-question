@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Demo</title>
+</head>
+
+<body>
+<script>
+var string = "lorem ipsum dolor sit amet, consectetur adipisicing elit";
+var count = 0;
+for(var i=0; string.length > i; i++){
+    if(string.charAt(i) == 'i'){
+        ++count; 
+    }
+}
+console.log(count);    // 7
+</script>
+</body>
+</html>

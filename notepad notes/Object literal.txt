@@ -1,9 +1,0 @@
-Q.what is object literal ?
-=>it is a comma saperated list of name-value pairs wrapped in to curly braces.
-=>it encalupate the data.
-
-var myObject={ name:"Indai" , 
-                               code : "IND",
-                               price :"2000"
-                             }
-

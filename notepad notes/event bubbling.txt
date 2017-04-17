@@ -1,2 +1,0 @@
-Q.event bubbling ?
-=>it will return boolean value.(true or false).

@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script>
+function f1(){
+	var parent=["parent" , "grandparent"];
+	var child=["child" , "grandchild",{name:"sush" ,code:"vix"}];
+	var newArray=parent.concat(child);
+	console.log(newArray.toString());
+	console.log(newArray[4].name);
+	console.log(newArray[4].code)
+}
+</script>
+<button value="clickme" onclick="f1()">click</button>
+</body>
+</html>

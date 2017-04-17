@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<title>Replacing String Content</title>
+</head>
+
+<body>
+	<script>
+		function replaceString() {
+			var paraRef = document.getElementById("para1").innerHTML;
+			alert(paraRef);
+			var replaceString = paraRef.replace("Sushant", "vicky");
+			console.log(replaceString);
+		}
+	</script>
+	<p id="para1">This is Sushant and Sushant World</p>
+	<!--bydefault it will replace first occurance -->
+	<button id="btn1" value="Replace" onClick="replaceString()">Replace String</button>
+	
+</body>
+
+</html>

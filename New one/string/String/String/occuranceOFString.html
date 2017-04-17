@@ -1,0 +1,41 @@
+<html>
+
+<head>
+	<title>No of Occurance</title>
+</head>
+
+<body>
+	<script>
+		function checkOccurance() {
+			/*var str="This is my world is my world";
+			var count=0;
+			var newStr=str.match(/is/g);
+			console.log(newStr);
+			for(var i=0;i<str.length;i++){
+				
+				str[i];
+				
+				/*if(str.match(/is/)=="is"){
+					count++;
+					
+				
+			}*/
+
+			var someString = "Lorem ipsum dolor sit amet, consectetur adipisicing elit";
+			var count = 0;
+			var pos = someString.indexOf("ip");
+			console.log(pos);//6
+			while (pos > -1) {
+				++count;
+				pos = someString.indexOf("ip", ++pos);
+			}
+			console.log(count); // 2
+
+		}
+
+	</script>
+	<input type="button" name="btn1" value="occuarance" onclick="checkOccurance()">
+	<p id="demo"></p>
+</body>
+
+</html>

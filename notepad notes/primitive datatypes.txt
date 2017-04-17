@@ -1,7 +1,0 @@
-Primitive Data Type ?
-=>
-1.number :this indicate floationg,as well as integer
-2.string:anything in " " or ' ';
-3.boolean:true or false
-4.undefined:when you try to access variable that does't exist, you will get a special value called undefined.at same thing when you declare variable and not assign any value at that time js internally assing undefined value and you get value undefined.
-5.null:

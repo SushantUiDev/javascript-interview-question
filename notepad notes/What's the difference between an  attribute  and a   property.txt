@@ -1,7 +1,0 @@
-Q.What's the difference between an "attribute" and a "property" ?
-=>property are refer to DOM object.
-=>it is just like an instances of an perticular element.
-=>property have diffrent type,number,string etc.
-
-=>attribute are in html itself.rather than in DOM.
-=>attribute is only of one type called string.

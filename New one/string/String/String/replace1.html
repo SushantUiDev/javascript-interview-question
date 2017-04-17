@@ -1,0 +1,22 @@
+<html>
+
+<head>
+	<title>Replace demo2</title>
+</head>
+
+<body>
+	<script>
+		function replaceMe() {
+			var oldString = document.getElementById("para1").innerHTML;
+			alert(oldString.toLowerCase());//convert all sentance in lowercase
+			var newString = oldString.replace(/Vicky/g, "Sushant");
+			newString.toUpperCase();
+			alert(newString.toUpperCase());
+
+		}
+	</script>
+	<p id="para1">This is Vicky And Vicky World</p>
+	<button id="btn1" value="Replace" onClick="replaceMe()">Replace all</button>
+</body>
+
+</html>

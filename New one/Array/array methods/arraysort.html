@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+</head>
+
+<body>
+	<script>
+		function f1() {
+			var cities = ["hydrabad", "channai", "mumbai", "pune"];
+			console.log("======= original array ========= ");
+			console.log(cities);
+			console.log("======= string array ========= ")
+			console.log(cities.toString()); //convert array in to strong
+			console.log("======= reverse array ========= ")
+			console.log(cities.reverse());
+			console.log("======= sort based on alphabet array ========= ")
+			console.log(cities.sort());
+
+			// numeric sort
+			console.log("Numeric Sort..");
+			var intArray = [1400, 56, 99];
+			console.log("======= original array ========= ");
+			console.log(intArray);
+			console.log("======= string array ========= ")
+			console.log(intArray.toString());
+			intArray.sort(
+				function(a, b) {
+					return a - b;
+				})
+			console.log(intArray.toString());
+
+
+		}
+
+	</script>
+	<button name="btn1" value="Click" onClick="f1()">ClickMe</button>
+</body>
+
+</html>

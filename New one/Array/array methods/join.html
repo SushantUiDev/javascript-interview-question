@@ -1,0 +1,17 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            function f1(){
+                var myArr=["a" , "n" , "c" , "d"];
+                document.write("original array:"+myArr.toString()+"<br>");
+                document.write("original array using join :"+myArr.join("|")+"<br>");
+                document.write("push ele:"+myArr.push("5")+"<br>");//return length
+                document.write("array after push:"+myArr.join("-")+"<br>");//output a n c d 5
+                document.write("pop ele:"+myArr.pop()+"<br>");//return deleted element from last
+                document.write("array after pop:"+myArr.join("/"));//output ancd
+            }
+        </script>
+        <input type="button" name="btn1" id="btn1" value="Click" onclick="f1()">
+    </body>
+</html>

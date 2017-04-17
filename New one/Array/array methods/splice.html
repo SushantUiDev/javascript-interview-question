@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<body>
+<script>
+function f1(){
+var cities=["hydrabad","mumbai","pune"];
+console.log(cities.toString());
+//adding element
+cities.splice(2,0,"goa","delhi");
+console.log(cities.toString());
+//removing element
+cities.splice(0,2);
+console.log(cities.toString());
+}
+</script>
+<button name="btn1" value="Click" onClick="f1()">ClickMe</button>
+</body>
+</html>

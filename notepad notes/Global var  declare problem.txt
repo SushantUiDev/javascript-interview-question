@@ -1,9 +1,0 @@
-What are global variables? How are they declared? What are the problems with using globals?
-=>scope is a variable that you have to access.
-=>any variable declare outside of function called global variable;
-=>global variable can access any where in the page.
-=>in html global scope is the window object.all global variable belongs to window object.
-
-problem :
-=======
-=>if you decalre anything as a global ,your global variable can override window variable/function.
